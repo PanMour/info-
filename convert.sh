@@ -1,4 +1,5 @@
 #! /bin/bash
+chmod +x File_name
 echo "  Menu:
         i) my_book.epub
         ii) Class_Report.md
@@ -26,7 +27,7 @@ then
         ls
         vim my_book.html
   else
-        echo " The option you chose doesn't exist, please try again!"
+        echo " The option you chose does not exist, please try again!"
   fi
 elif [ "$opt" = "ii" ]
 then
@@ -48,9 +49,9 @@ then
         echo " New Directory: "
         ls
   else
-        echo " The option you chose doesn't exist, please try again!"
+        echo " The option you chose does not exist, please try again!"
   fi
 else
-  echo " The option you chose doesn't exist, please try again!"
+  echo " The option you chose does not exist, please try again!"
 fi
 
