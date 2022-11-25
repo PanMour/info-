@@ -4,14 +4,14 @@ echo "  Menu:
         ii) Class_Report.md
         Choose which one you want to convert (i/ii) "
 read opt
-if [ "$opt" = "i"];
+if [ "$opt" = "i" ];
 then
   echo " Select type for the book:
         i) txt
         ii) html
         Choose into what you want to convert it into (i/ii) "
   read bopt
-  if [ "$bopt" = "i"];
+  if [ "$bopt" = "i" ];
   then
         pandoc -s my_book.epub -o my_book.txt
         echo " Convertion done! "
@@ -35,7 +35,7 @@ then
         ii) html
         Choose into what you want to convert it into (i/ii) "
   read ropt
-  if [ "$ropt" = "i"];
+  if [ "$ropt" = "i" ];
   then
         pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="Sans Regular" --variable sansfont="Sans Regular" --variable monofont="Sans Regular" --variable fontsize=12pt --variable version=2.0 Class_Report.md --pdf-engine=xelatex --toc -o Class_Report.pdf
         echo " Convertion done! "
