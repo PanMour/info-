@@ -37,7 +37,7 @@ then
   read ropt
   if [ "$ropt" = "i" ];
   then
-        pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="Sans Regular" --variable sansfont="Sans Regular" --variable monofont="Sans Regular" --variable fontsize=12pt --variable version=2.0 Class_Report.md --pdf-engine=xelatex --toc -o Class_Report.pdf
+        pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="Sans Regular" --variable sansfont="Sans Regular" --variable monofont="Sans Regular" --variable fontsize=12pt --variable version=2.0 Class_Report.md --pdf-engine=xelatex --toc -o Class_Report.pdf*
         echo " Convertion done! "
         echo " New Directory: "
         ls
