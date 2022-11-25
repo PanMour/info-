@@ -1,5 +1,4 @@
 #! /bin/bash
-chmod +x File_name
 echo "  Menu:
         i) my_book.epub
         ii) Class_Report.md
@@ -19,7 +18,7 @@ then
         echo " New Directory: "
         ls
         vim my_book.txt
-  elif [ "$bopt = "ii" ]
+  elif [ "$bopt" = "ii" ]
   then
         pandoc -s my_book.epub -o my_book.html
         echo " Convertion done! "
@@ -42,7 +41,7 @@ then
         echo " Convertion done! "
         echo " New Directory: "
         ls
-  elif [ "$ropt = "ii" ]
+  elif [ "$ropt" = "ii" ]
   then
         pandoc -s Class_Report.md --metadata title="HCI Report" -o Class_Report.html
         echo " Convertion done! "
