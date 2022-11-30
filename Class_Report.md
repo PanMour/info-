@@ -1,10 +1,10 @@
 # Επικοινωνία Ανθρώπου-Υπολογιστή
 # Βασικές Πληροφορίες:
-ΑΜ: inf2021147
-Ονοματεπώνυμο: Μουρελάτος Παναγιώτης
-[Github Προφίλ](https://github.com/PanMour)
-[Ομάδα](https://github.com/OMADA12)
-[Netlify Site](https://panmour-2021147.netlify.app/)
+  - ΑΜ: inf2021147
+  - Ονοματεπώνυμο: Μουρελάτος Παναγιώτης
+  - [Github Προφίλ](https://github.com/PanMour)
+  - [Ομάδα](https://github.com/OMADA12)
+  - [Netlify Site](https://panmour-2021147.netlify.app/)
 
 # Αναφορά:
 | Εβδομάδα | [Όλα τα παραδοτέα βρίσκονται στην ίδια σελίδα της τελικής αναφοράς](https://courses-ionio.github.io/help/deliverables/) με τα προσωπικά στοιχεία σας (Όνομα, ΑΜ, github profile) και μαζί με αυτόν εδώ τον πίνακα περιεχομένων | Σύνδεσμος στην [εβδομαδιαία παρουσίαση προόδου στις συζητήσεις](https://github.com/courses-ionio/help/discussions/categories/show-and-tell) | Αυτοαξιολόγηση σύμφωνα με τα κριτήρια της αντίστοιχης άσκησης |
@@ -185,6 +185,6 @@
   - [Ibook Wikipeida](https://en.wikipedia.org/wiki/IBook)
   - [Ibook ComputerHope](https://www.computerhope.com/jargon/i/ibook.htm)
   - [Differences between Ibook-Powerbook](http://www.differencebetween.net/object/gadgets-object/difference-between-apple-ibook-and-powerbook/)
-  - [Powerbook vs Ibook](https://lowendmac.com/2012/12-powerbook-vs-ibook-is-there-really-a-difference/
+  - [Powerbook vs Ibook](https://lowendmac.com/2012/12-powerbook-vs-ibook-is-there-really-a-difference/)
   - [Apple History of Ibook](https://apple-history.com/ibook)
   - [OpenSIS Wikipedia](https://en.wikipedia.org/wiki/OpenSIS)
