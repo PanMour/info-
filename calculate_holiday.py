@@ -29,9 +29,9 @@ def get_holiday():
 
 def calculate(holiday, now):
     diff = holiday - now
-    if diff.days >= 0:  # holiday is upcoming this year
+    if diff.days >= 0:  
         return diff.days
-    else:  # next holiday occurs next year .timedelta doesn't support years, so this is my workaround
+    else:  
         return ((holiday + timedelta(days = 365)) - now).days
 
 hd = get_holiday()
