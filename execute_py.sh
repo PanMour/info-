@@ -1,2 +1,2 @@
 #!/bin/sh
-python python_script.py
+python calculate_holiday.py
