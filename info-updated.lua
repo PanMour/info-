@@ -8,7 +8,7 @@ function Image(img)
       local name = pandoc.utils.stringify(doc.meta.name)
       local am = pandoc.utils.stringify(doc.meta.am)
       local line = "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
-      local content = '> **My Addition:** \n ' .. **title:** .. ' \n ' .. caption .. '  \n>'  .. line .. '  \n ' .. "Ονοματεπώνυμο: " .. name .. '  \n '  .. "Αριθμός Μητρώου: " .. am .. ' \n ' ..  line
+      local content = '> **My Addition:** \n ' .. title .. ":" .. ' \n ' .. caption .. '  \n>'  .. line .. '  \n ' .. "Ονοματεπώνυμο: " .. name .. '  \n '  .. "Αριθμός Μητρώου: " .. am .. ' \n ' ..  line
       return pandoc.RawInline('markdown',content)
     end
 end
